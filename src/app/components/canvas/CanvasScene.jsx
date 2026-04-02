@@ -61,14 +61,14 @@ const CursorLight = () => {
 
 const Computer = () => {
   const group = useRef();
-  const { scene, animations } = useGLTF("/robot1.glb"); // Load the model and its animations
+  const { scene, animations } = useGLTF("/robot12.glb"); // Load the model and its animations
   const { actions } = useAnimations(animations, group);
 
   const { isMobile, isTablet } = useResponsive();
 
 
-  const scale = isMobile ? [1.6, 1.6, 1.6]: [1.92, 1.92, 1.92];
-const position = isMobile ? [-1, -0.8, -0.5]: [-1.3, -1.4, -0.9];
+ const scale = isMobile ? [1.8, 1.8, 1.8]: [2.2, 2.2, 2.2];
+const position = isMobile ? [-1, -0.6, -0.5]: [-1.3, -1.2, -0.9];
 
   useEffect(() => {
   if (actions) {
