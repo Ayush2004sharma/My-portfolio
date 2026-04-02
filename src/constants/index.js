@@ -35,7 +35,7 @@ const slides = [
       "My personal protfolio made with Next JS Three JS and Gsap.",
 
     img: "/portfolio.png",
-    link: "https://Ayush.vercel.app/",
+    link: "https://my-portfolio-seven-navy-96.vercel.app/",
   },
   {
   id: 5,
