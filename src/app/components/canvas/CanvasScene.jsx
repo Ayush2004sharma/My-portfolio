@@ -68,7 +68,7 @@ const Computer = () => {
 
 
   const scale = isMobile ? [1.6, 1.6, 1.6]: [1.92, 1.92, 1.92];
-const position = isMobile ? [-0.5, -1.2, -0.5]: [-1.3, -1.4, -0.9];
+const position = isMobile ? [-1, -0.8, -0.5]: [-1.3, -1.4, -0.9];
 
   useEffect(() => {
   if (actions) {
