@@ -336,12 +336,16 @@ border border-neutral-800 grid-fade"
                       rel="noopener noreferrer"
                       className="group flex items-center justify-between rounded-xl"
                     >
-                      <div className="flex items-center gap-3">
-                        <FaGithub className="text-2xl text-pink-200" />
-                        <span className="text-neutral-200/80 text-lg sm:text-xl font-extralight tracking-wider">
-                          Ayush2004sharma
-                        </span>
-                      </div>
+                      <div className="flex items-center gap-2 sm:gap-3">
+  <FaGithub className="text-xl sm:text-2xl md:text-3xl text-pink-200 shrink-0" />
+
+  <span className="text-neutral-200/80 
+                   text-sm sm:text-base md:text-lg lg:text-xl 
+                   font-extralight tracking-wide sm:tracking-wider 
+                   truncate max-w-[140px] sm:max-w-none">
+    Ayush2004sharma
+  </span>
+</div>
                       <FiArrowUpRight className="text-xl opacity-70 group-hover:translate-x-1 transition " />
                     </a>
                   </li>
