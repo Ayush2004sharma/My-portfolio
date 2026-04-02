@@ -49,7 +49,7 @@ const slides = [
     title: "RADAR-AI",
     description:
       "AI-based incident debugging platform for fast root-cause analysis.",
-    img: "/radar.png",
+    img: "/Radar.png",
     link: "https://frontend-radar-ai.vercel.app/projects",
   },
 ];
